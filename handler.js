@@ -444,7 +444,6 @@ export async function handler(chatUpdate) {
                     chat.sDemote = ''
                 if (!('delete' in chat))
                     chat.delete = false
-                
                 if (!('antiLink' in chat))
                     chat.antiLink = false
                 if (!('viewonce' in chat))
@@ -453,10 +452,7 @@ export async function handler(chatUpdate) {
                     chat.antiToxic = true
                 if (!('simi' in chat))
                     chat.simi = false
-                if (!('nsfw' in chat))
-                    chat.nsfw = false
-                if (!('premnsfw' in chat))
-                    chat.premnsfw = false
+
                 if (!isNumber(chat.expired))
                     chat.expired = 0
                if (!('getmsg' in chat)) 
@@ -478,8 +474,6 @@ export async function handler(chatUpdate) {
                     antiToxic: true,
                     simi: false,
                     expired: 0,
-                    nsfw: false,
-                    premnsfw: false,
                     getmsg: true,
                 }
             let settings = global.db.data.settings[this.user.jid]
