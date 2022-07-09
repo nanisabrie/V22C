@@ -111,7 +111,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
     let angka = 100
     let angka2 = 9
 let caption = `Tingkat ke *${args[0]}an* \nAtas nama ${name} @${who.split("@")[0]} \nAdalah Sebesar *${angka.getRandom()}.${angka2.getRandom()}%*`
-  await conn.sendButton(msg.key.remoteJid, caption, wm, await(await fetch(pp)).buffer(), [['Cek', '/cek']], m, {
+  await conn.sendButton(m.chat, caption, wm, await(await fetch(pp)).buffer(), [['Cek', '/cek']], m, {
                 mentions: conn.parseMention(caption)
             })
     

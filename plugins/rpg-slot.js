@@ -77,7 +77,7 @@ ${spins4}|${spins5}|${spins6} <<==
 ${spins7}|${spins8}|${spins9}
 
 *${WinOrLose}* *${Hadiah}*
-`, wm, 'Main Lagi', '.slot ${text}', m)
+`, wm, null, [['Main Lagi', `.slot ${text}`]], m)
     } catch (e) {
         console.log(e)
         conn.reply(m.chat, 'Error', m)

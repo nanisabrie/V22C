@@ -7,8 +7,7 @@ let fdoc = {quoted:{key : {participant : '0@s.whatsapp.net'},message: {documentM
 if (!text) throw `Contoh penggunaan ${usedPrefix}${command} japan`
 let f = await fetch(`https://betabotz-api.herokuapp.com/api/search/xvideos?query=${text}&apikey=BetaBotz`)
 let xx = await f.json()
-let v = xx.result
-let teks = v.map(v => {
+let teks = xx.result.map(v => {
 return `
 Judul *${v.title}*
 Info: ${v.info}
@@ -25,8 +24,7 @@ Link: ${v.link}
 if (!text) throw `Contoh penggunaan ${usedPrefix}${command} japan`
 let f = await fetch(`https://betabotz-api.herokuapp.com/api/search/xnxx?query=${text}&apikey=BetaBotz`)
 let xx = await f.json()
-let v = xx.result
-let teks = v.map(v => {
+let teks = xx.result.map(v => {
 return `
 Judul *${v.title}*
 Info: ${v.info}
@@ -43,8 +41,7 @@ Link: ${v.link}
 if (!text) throw `Contoh penggunaan ${usedPrefix}${command} japan`
 let f = await fetch(`https://betabotz-api.herokuapp.com/api/search/pornhub?query=${text}&apikey=BetaBotz`)
 let xx = await f.json()
-let v = xx.results
-let teks = v.map(v => {
+let teks = xx.results.map(v => {
 return `
 Judul *${v.title}*
 views: ${v.views}
@@ -61,8 +58,7 @@ link: ${v.link}
 if (!text) throw `Contoh penggunaan ${usedPrefix}${command} japan`
 let f = await fetch(`https://api.lolhuman.xyz/api/xnxxsearch?apikey=9b817532fadff8fc7cb86862&query=${text}`)
 let xx = await f.json()
-let v = xx.result
-let teks = v.map(v => {
+let teks = xx.result.map(v => {
 return `
 Judul *${v.title}*
 views: ${v.views}
