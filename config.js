@@ -74,7 +74,7 @@ global.nameown = 'Sabrie'
 /*============== WATERMARK ==============*/
 global.wm = '                「 𝙬𝙞𝙗𝙪♡あ⁩ 」' //Main Watermark
 global.wm2 = '𝙬𝙞𝙗𝙪♡'
-global.wm3 = '𝙬𝙞𝙗𝙪♡
+global.wm3 = '𝙬𝙞𝙗𝙪♡'
 '
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}`
@@ -364,8 +364,8 @@ global.htjava = '⫹⫺' //hiasan Doang :v
 /*============== STICKER WM ==============*/
 global.stickpack = '.'
 global.stickauth = `☂︎ ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
-global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.author = "ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ X Wudysoft"
+global.packname = '𝙬𝙞𝙗𝙪♡'
+global.author = "Sabrie"
 global.multiplier = 69 // The higher, The harder levelup
 
 /*============== ERR ==============*/
