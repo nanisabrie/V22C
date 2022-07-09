@@ -452,7 +452,6 @@ export async function handler(chatUpdate) {
                     chat.antiToxic = true
                 if (!('simi' in chat))
                     chat.simi = false
-
                 if (!isNumber(chat.expired))
                     chat.expired = 0
                if (!('getmsg' in chat)) 
@@ -467,7 +466,6 @@ export async function handler(chatUpdate) {
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
-                   
                     delete: false,
                     antiLink: false,
                     viewonce: false,
