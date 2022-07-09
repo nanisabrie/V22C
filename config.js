@@ -6,16 +6,10 @@ import moment from 'moment-timezone'
 
 /**Oᴡɴᴇʀ number**/
 global.owner = [
-  ['6282195322106', '️Oᴡɴᴇʀ One ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Two ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Three ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Four ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Five ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Six ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Seven ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Eight ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Nine ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true],
-  ['6282195322106', '️Oᴡɴᴇʀ Teen ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ', true]
+  ['601131261227', '️Owner naz', true],
+  ['60102835580', '️Owner Kuro', true],
+  ['60102650191', '️𝙬𝙞𝙗𝙪♡', true],
+  ['601161739141', '️Owner Sabrie', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -72,15 +66,16 @@ let keyalpha = api[Math.floor(Math.random() * api.length)]
 global.apikeys = keyalpha
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6285171216276'
-global.nomorown = '6282195322106'
-global.namebot = 'ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ'
-global.nameown = 'Oᴡɴᴇʀ ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ'
+global.nomorbot = '60102650191'
+global.nomorown = '601161739141'
+global.namebot = '𝙬𝙞𝙗𝙪♡'
+global.nameown = 'Sabrie'
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ あ⁩ 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ ᴴ ᴵ ᴺ ᴬ ᵀ ᴬ ⁻ ᴹ ᴰ'
+global.wm = '                「 𝙬𝙞𝙗𝙪♡あ⁩ 」' //Main Watermark
+global.wm2 = '𝙬𝙞𝙗𝙪♡'
+global.wm3 = '𝙬𝙞𝙗𝙪♡
+'
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}`
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
