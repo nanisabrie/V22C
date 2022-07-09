@@ -75,7 +75,6 @@ global.nameown = 'Sabrie'
 global.wm = '                「 𝙬𝙞𝙗𝙪♡あ⁩ 」' //Main Watermark
 global.wm2 = '𝙬𝙞𝙗𝙪♡'
 global.wm3 = '𝙬𝙞𝙗𝙪♡'
-'
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}`
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
